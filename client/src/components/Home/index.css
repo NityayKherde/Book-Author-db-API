@@ -1,0 +1,163 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+.home-bg-container{
+    background-color: skyblue; 
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+.input-btn-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.input-user{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin-right: 10px;
+    outline: none;
+    padding: 5px;
+}
+.search-btn{
+    padding: 5px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0793f0;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media(min-width:768px){
+    .input-user{
+        width: 400px;
+    }
+}
+.weather-card-container{
+    width: 80%;
+}
+.unorder-list-container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+ */
+
+ /* General Reset */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container styles */
+.home-bg-container {
+    background-color: blanchedalmond;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Adjusted to space-between */
+    min-height: 100vh; /* Changed to min-height for better responsiveness */
+}
+
+/* Input and button container */
+.input-btn-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-user {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin-right: 10px;
+    outline: none;
+    padding: 5px;
+}
+
+.search-btn {
+    padding: 5px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Responsive for larger screens */
+@media (min-width: 768px) {
+    .input-user {
+        width: 400px;
+    }
+}
+
+/* Weather card container */
+.weather-card-container {
+    width: 80%;
+}
+
+/* Book card container */
+.book-card-container {
+    width: 80%;
+    margin-bottom: 20px; /* Add some space between sections */
+}
+
+/* Book card styles */
+.book-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px 0;
+    background-color: #f9f9f9;
+}
+
+.book-card h3 {
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.book-card p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Footer styles */
+/* Adjust these styles as per your design */
+footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
